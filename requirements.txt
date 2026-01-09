@@ -1,0 +1,10 @@
+# Core dependencies
+numpy>=1.20.0
+embeddings-engine>=1.0.0
+vector-navigator>=1.0.0
+scikit-learn>=1.0.0
+typing-extensions>=4.0.0
+
+# Optional: GPU support
+torch>=2.0.0
+sentence-transformers>=2.0.0
