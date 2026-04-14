@@ -159,7 +159,7 @@ class HybridRetriever(Retriever):
         self.sparse_weight = sparse_weight
         self.fusion_strategy = fusion_strategy
         self.retrieval_k = retrieval_k
-        self.sparse_index = None
+        self.sparse_matrix = None
 
     def build_sparse_index(self, chunks: List) -> None:
         """

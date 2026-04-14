@@ -100,6 +100,8 @@ class FixedSizeChunker(Chunker):
                 )
             )
 
+            if end >= len(text):
+                break
             start = end - self.overlap
             chunk_id += 1
 
